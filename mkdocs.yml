@@ -2,5 +2,15 @@ site_name: My Docs
 nav:
   - 主页: 'index.md'
   - 关于: 'about.md'
+  - 场地申请指南: '场地申请指南.md'
 theme: 
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+markdown_extensions:
+    - toc:
+        permalink: 'True'
+        slugify: !!python/name:pymdownx.slugs.uslugify
