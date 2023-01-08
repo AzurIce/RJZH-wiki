@@ -1,8 +1,17 @@
-site_name: My Docs
+# Project Information
+site_name: RJZH-wiki
+
+# Repository
+repo_name: 'BJTU-RJZH/RJZH-wiki'
+repo_url: 'https://github.com/BJTU-RJZH/RJZH-wiki'
+
+# Contents
 nav:
   - 主页: 'index.md'
   - 关于: 'about.md'
   - 场地申请指南: '场地申请指南.md'
+
+# Theme
 theme: 
   name: material
   features:
