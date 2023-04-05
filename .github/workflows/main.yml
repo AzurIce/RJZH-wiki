@@ -24,12 +24,6 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4.5.0
     
-      - name: Download aoike
-        uses: actions/checkout@v3
-        with:
-          repository: azurice/aoike
-          ref: master
-    
       - run: pip install mkdocs
       - run: pip install pymdown-extensions
       - run: pip install mkdocs-material
