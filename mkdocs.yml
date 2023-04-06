@@ -9,9 +9,16 @@ repo_url: 'https://github.com/AzurIce/RJZH-wiki'
 nav:
   - 关于:
     - 简介: 'index.md'
-    - 如何参与: '简介/如何参与.md'
-    - 格式手册: '简介/格式手册.md'
+    - 如何参与: '关于/如何参与.md'
+    - 格式手册: '关于/格式手册.md'
+  - 基础设施:
+    - 简介: '基础设施/index.md'
+  - 活动指南:
+    - 简介: '活动指南/index.md'
   - 场地申请指南: '场地申请指南.md'
+  - 备赛:
+    - 简介: '备赛/index.md'
+    - 备赛工作流: '备赛/备赛工作流/index.md'
 
 # Theme
 theme: 
@@ -24,6 +31,7 @@ theme:
     - navigation.top
     - toc.follow
 markdown_extensions:
-    - toc:
-        permalink: 'True'
-        slugify: !!python/name:pymdownx.slugs.uslugify
+  - nl2br
+  - toc:
+      permalink: 'True'
+      slugify: !!python/name:pymdownx.slugs.uslugify
